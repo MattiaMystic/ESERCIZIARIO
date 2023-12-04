@@ -1,0 +1,13 @@
+import math
+import random
+
+a=random.random()
+a=int(a*10)
+i=1
+mio=eval(input("Inserire il numero"))
+while(a != mio):
+  print("Non hai indovinato")
+  mio=eval(input("Reinserisci il numero, grazie!"))
+  i=i+1
+print("Hai indovinato, il numero era: ", a)
+print("hai fatto tot tentativi",i)
